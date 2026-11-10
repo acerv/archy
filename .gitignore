@@ -1,0 +1,8 @@
+install.conf
+*.conf.json
+user_configuration.json
+user_credentials.json
+user_disk_layout.json
+mkosi.output/
+extra/nvim/
+sway-config/

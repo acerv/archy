@@ -1,0 +1,12 @@
+enable NetworkManager.service
+enable NetworkManager-wait-online.service
+enable apparmor.service
+enable bluetooth.service
+enable ufw.service
+enable upower.service
+enable docker.service
+enable fstrim.timer
+
+disable systemd-networkd.service
+disable systemd-networkd.socket
+disable systemd-networkd-wait-online.service
